@@ -1,0 +1,49 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 23/03/2020 14:16
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-customer-support:before { content: "\f100"; }
+.flaticon-car:before { content: "\f101"; }
+.flaticon-car-engine:before { content: "\f102"; }
+.flaticon-call:before { content: "\f103"; }
+.flaticon-clock:before { content: "\f104"; }
+.flaticon-email:before { content: "\f105"; }
+.flaticon-tyre:before { content: "\f106"; }
+.flaticon-driver:before { content: "\f107"; }
+.flaticon-wrench:before { content: "\f108"; }
+.flaticon-spanner:before { content: "\f109"; }
+.flaticon-maintenance:before { content: "\f10a"; }
+.flaticon-steering-wheel:before { content: "\f10b"; }
+.flaticon-truck:before { content: "\f10c"; }
+.flaticon-valet-parking:before { content: "\f10d"; }
+.flaticon-location:before { content: "\f10e"; }
+.flaticon-startup:before { content: "\f10f"; }
+.flaticon-shopping-cart:before { content: "\f110"; }
+.flaticon-brake-disc:before { content: "\f111"; }
+.flaticon-fuel:before { content: "\f112"; }

@@ -1,0 +1,1996 @@
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:0;
+}
+ul,ol{
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+p{
+	margin:0;
+	padding:0;
+}
+/*========================common css =========================== */
+
+
+
+
+
+
+/*=============================large device part start=====================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ 
+/*===========================head part start==========================*/
+.head1{
+	width:80%;
+}
+.head2{
+	width:20%;
+    text-align: left!important;
+
+}
+.header-right{
+	padding-top:13px;
+}
+.header-left ul{
+	margin-bottom:0;
+}
+#header {
+	padding-top: 24px;
+	padding-bottom: 22px;
+}
+
+/*=============================menu part start========================*/
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 12px;
+	padding-left: 12px;
+	font-size: 16px;
+}
+
+
+
+/*========================banner part start=========================*/
+
+.banner-header h4 {
+	font-size: 18px;
+}
+#banner {
+	padding-top: 150px;
+	padding-bottom: 163px;
+}
+.banner-btn {
+	padding-top: 35px;
+}
+
+
+
+/*========================about part start=========================*/
+.about-img img {
+	height: 618px;
+}
+#about {
+	padding-top: 118px;
+}
+.about-right{
+	width:50%;
+}
+.about-left{
+	width:50%;
+}
+
+
+/*========================details part start=========================*/
+
+.detail-left-text h2 {
+	font-size: 48px;
+}
+.detail-left-text h3 {
+	font-size: 36px;
+}
+.detail-top {
+	padding-top: 36px;
+}
+.detail-header{
+	padding-left:3px;
+}
+#detail {
+	padding-top: 110px;
+	padding-bottom: 114px;
+}
+
+
+/*=========================service part start===================*/
+.header-all{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.service-item h3 {
+	font-size: 20px;
+}
+
+/*===========================shop part start====================*/
+.shop-item h5 {
+	font-size: 18px;
+}
+.shop-item:hover .shop-overlay {
+	height: 40%;
+}
+
+/*===========================project part start====================*/
+
+.pro-hover2 {
+	bottom: 28px;
+	right: 0px;
+	width: 200px;
+	padding-left: 4px;
+}
+.pro-right{
+	width: 104px;
+}
+.pro-right p {
+	padding: 5px 9px;
+	font-size: 14px;
+}
+.pro-icon i {
+	font-size: 14px;
+}
+.pro-icon {
+	padding-top: 0;
+}
+
+/*===========================counter part start====================*/
+ .counter-left{
+ 	width:20%;
+ }
+.counter-right{
+	width:80%;
+}
+.counter-item p {
+	font-size: 14px;
+}
+.counter-item {
+	padding: 18px 13px 24px 13px;
+}
+.counter-top {
+	margin-top: 60px;
+}
+#counter {
+	padding-top: 34px;
+	padding-bottom: 25px;
+}
+
+
+/*===========================subscribe part start====================*/
+.subs-form {
+	padding-top: 37px;
+}
+.subs-form button {
+	top: 37px;
+}
+#subscribe {
+	padding-bottom: 55px;
+}
+
+
+/*===========================shop page start====================*/
+
+.product-top {
+	margin-top: 24px;
+}
+.product-detail h4 {
+	padding-top: 6px;
+}
+.product-detail h3 {
+	font-weight: 600;
+	font-size: 22px;
+}
+.product-img img{
+	height:303px;
+}
+
+
+/*===========================news page start====================*/
+
+ .posts {
+	padding-bottom: 25px;
+}
+.inner-blogs-icon {
+	padding-left: 37px;
+	width: 120%;
+}
+.inner-blog-icon {
+	width: 118%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*==================================medium device part start=======================*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*===================header part start========================*/
+ 
+.head2{
+	padding-top: 16px;
+}
+.header-left ul{
+	margin-bottom: 0px;
+}
+.header-left ul li:hover{
+	color:#4189de;
+}
+
+/*==============================menu part start====================*/
+
+.navbar {
+	line-height: 100px;
+	padding-left:45px;
+	padding-right: 45px;
+}
+ .nav-item .nav-link{
+ 	line-height: 50px;
+ 	background: #444;
+ 	border-bottom: 1px solid #fff;
+    color:#fff!important;
+ }
+
+.nav-item .nav-link:hover{
+ 	background: #4189de!important;
+ }
+ .navbar ul li ul {
+	top: 50px !important;
+	left: 200px;
+	border-top:0;
+}
+
+/*======================banner part start====================================*/
+#banner {
+	padding-top: 120px;
+	padding-bottom: 132px;
+}
+.banner-btn {
+	padding-top: 35px;
+}
+
+/*==============================promo part start============================*/
+ .promo-text{
+ 	padding-left:30px;
+ }
+.promo-btns{
+	text-align:left!important;
+}
+.promo-btn {
+	margin-top: 20px;
+	margin-left: 87px;
+	margin-bottom: 13px;
+}
+
+/*===============================about part start=============================*/
+.about-img{
+	text-align: center;
+	padding-bottom:29px; 
+}
+.about-img img{
+	height:400px;
+}
+#about {
+	padding-bottom:112px; 
+	padding-top:100px;
+}
+.banner-btn {
+	padding-top: 19px;
+}
+
+
+/*=================================detail part start==========================*/
+
+#detail {
+	padding-top: 90px;
+	padding-bottom: 94px;
+}
+.detail-left-text h2 {
+	font-size: 45px;
+}
+.detail-left-text h3 {
+	font-size: 36px;
+}
+.promo-center{
+	padding-right:100px;
+	padding-left: 45px;
+}
+.detail-top {
+	padding-top: 35px;
+}
+
+/*===========================service part start==============================*/
+
+#service {
+	padding-top: 88px;
+	padding-bottom: 100px;
+}
+.service-item {
+	margin-bottom: 15px;
+}
+.item-top {
+	margin-top: 0;
+}
+
+
+/*==============================shop part start==========================*/
+#shop {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.shop-item:hover .shop-overlay {
+	height: 30%;
+}
+.shop-item h5 {
+	font-size: 18px;
+}
+.shp-btn {
+	top: 0px;
+	left: 0;
+	border-radius: 0;
+}
+
+
+/*===============================project part start============================*/
+
+.header-all{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+#project {
+	padding-top: 92px;
+	padding-bottom: 100px;
+}
+.project-btn button {
+	padding: 10px 14px;
+	margin: 0 4px;
+}
+.project-btn {
+	margin-top: 50px;
+}
+.pro-hover2 {
+	bottom: 28px;
+	right: 0px;
+	width: 153px;
+}
+
+
+/*============================counter part start===============================*/
+.counter-item p {
+	font-size: 14px;
+}
+.counter-top {
+	margin-top: 20px;
+}
+.counter-img img{
+	height: 300px;
+}
+.counter-img{
+	text-align: center;
+}
+#counter {
+	padding-top: 36px;
+	padding-bottom: 58px;
+}
+
+
+/*======================team part start=================================*/
+ #team {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+
+/*======================blog part start=================================*/
+#testimonial {
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+
+
+/*=========================form part start=============================*/
+.forms-img {
+	right: 0px;
+	top: -351px;
+}
+#forms {
+	padding-top: 450px;
+	padding-bottom: 100px;
+}
+.inner-field {
+	padding-top: 16px;
+}
+.forms-img{
+	text-align: center;
+
+}
+.form-img img{
+	width:600px;
+}
+.inner-form h3 {
+	padding-bottom: 11px;
+}
+
+/*============================blog part start============================*/
+ 
+#blog {
+	padding-top: 90px;
+	padding-bottom: 91px;
+}
+
+
+/*============================subscribe part start============================*/
+
+.subs-form input {
+	height: 50px;
+}
+.subs-form {
+	padding-left: 120px;
+	padding-top:7px;
+	margin-right:100px;
+}
+.subs-form button {
+	top: 7px;
+	padding: 12px 20px;
+}
+
+
+/*================================contact part start============================*/
+.contact-1 {
+	padding-bottom: 51px;
+}
+#contact {
+	padding-top: 95px;
+	padding-bottom: 32px;
+}
+.last-lft p {
+	font-size: 15px;
+
+}
+
+
+/*=============================contact page==============================*/
+
+.contact-top{
+	padding-top:52px;
+}
+.details-top{
+	padding-left: 0;
+	padding-right: 30px;
+}
+.contact-top {
+	padding-left: 16px;
+}
+.details-text h4 {
+	padding-top: 15px;
+}
+#inner-contact {
+	padding-bottom: 34px;
+	padding-top: 52px;
+}
+.details-icon{
+	padding-top:14px;
+	text-align: right;
+}
+.contact-top {
+	padding-left: 0;
+	padding-top: 60px;
+}
+
+
+
+/*=============================shop page start==============================*/
+
+.product-img img{
+	width: 100%;
+}
+.product-img {
+	padding-bottom: 25px;
+}
+.product-top {
+	margin-top: 15px;
+}
+.product-detail h3 {
+	padding-bottom: 15px;
+}
+.product-icon {
+	padding-top: 0;
+}
+.banner-btn {
+	padding-top: 36px;
+}
+#otherpage .tabs-top {
+	padding-top: 71px;
+}
+.dis-img img{
+	height:100px;
+}
+.product-detail h4 {
+	padding-top: 9px;
+}
+#otherpage .tab-link {
+	padding: 8px 25px;
+}
+#otherpage .tab-link {
+	color: #444!important;
+	background: #fff;
+	border:1px solid #f2f2f2;
+	padding: 5px 15px;
+}
+#otherpage .nav-tabs .nav-item {
+	margin-bottom: 1px;
+}
+#otherpage .tab-link:hover{
+	color:#007bff!important;
+	background: #f2f2f2!important;
+
+}
+
+#otherpage .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #4189de !important;
+	background: #f2f2f2 !important;
+}
+.comment-img img{
+	width: 100%;
+}
+
+/*=============================service detail page start=================================*/
+
+.working-time {
+	padding: 30px 15px;
+}
+.hours{
+	margin-bottom: 30px;
+}
+.service-link {
+	padding: 15px 12px;
+	font-family: 'Hind', sans-serif;
+	font-size: 14px;
+}
+.service-title h3 {
+	padding-bottom: 22px;
+}
+
+/*=============================login page start=================================*/
+
+#otherpage .login-btn {
+	padding-bottom: 60px;
+}
+#login {
+	padding-top: 110px;
+	padding-bottom: 59px;
+}
+#otherpage .inner-form h3 {
+	padding-bottom: 15px;
+}
+
+/*=============================news-details  page start======================================*/
+
+#inner-blog {
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+.inner-right h3 {
+	padding-top: 22px;
+}
+.inner-blog1-img{
+	padding-bottom: 15px;
+}
+.innerblog-text h3 {
+	font-size: 24px;
+	padding-top: 15px;
+	padding-bottom: 7px;
+}
+.inner-blogs-icon {
+	padding-left: 0;
+}
+#otherpage .blogs-top {
+	padding-top: 9px;
+	padding-bottom: 54px;
+}
+.contact1-top {
+	padding-top: 26px;
+}
+.news-img{
+	padding-top:15px
+}
+
+/*#otherpage .subs-form input {
+	height: 49px;
+}
+#otherpage .subs-form button {
+	top: 2px;
+	padding: 11px 15px;
+}*/
+.news-update{
+	padding-right: 30px;
+	padding-right: 30px;
+}
+.posts p {
+	font-size: 20px;
+}
+.posts h5 {
+	font-size: 16px;
+}
+
+.news-btn{
+	padding-bottom: 60px;
+}
+.innerblog-img img {
+	height: 463px;
+	transition: all linear 0.3s;
+}
+
+
+
+
+ }
+
+
+
+
+
+@media (min-width: 900px) and (max-width: 991.98px) {
+ 
+
+
+
+
+
+}
+
+
+
+
+
+/*============================small device part start===============================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+ /*=======================header part start====================*/
+.header-right{
+	text-align: left!important;
+}
+.header-left ul{
+	margin-bottom: 0;
+}
+#header {
+	padding-top: 24px;
+	padding-bottom: 29px;
+}
+.header-right i {
+	margin: 0 3px;
+}
+.head2{
+	padding-top:30px;
+}
+
+
+/*====================menu part start==================*/
+.navbar {
+	line-height: 100px;
+	padding-left:45px;
+	padding-right: 45px;
+}
+ .nav-item .nav-link{
+ 	line-height: 50px;
+ 	background: #444;
+ 	border-bottom: 1px solid #fff;
+    color:#fff!important;
+ }
+
+.nav-item .nav-link:hover{
+ 	background: #4189de!important;
+ }
+ .navbar ul li ul {
+	top: 50px !important;
+	left: 200px;
+	border-top:0;
+}
+
+/*==============================banner part start=============================*/
+#banner {
+	padding-top: 100px;
+	padding-bottom: 115px;
+}
+.banner-headers h2 {
+	font-size: 50px;
+}
+.banner-header h4 {
+	font-size: 20px;
+}
+.banner-btn {
+	padding-top: 33px;
+}
+
+/*===============================promo part start===========================*/
+.promo-btns{
+	text-align:left!important;
+}
+#promo {
+	padding-bottom: 42px;
+}
+.promo-btn {
+	margin-top: 18px;
+	margin-left: 87px;
+}
+
+
+/*==========================about part start==============================*/
+.about-img{
+	text-align: center;
+	padding-bottom:29px; 
+}
+.about-img img{
+	height:335px;
+}
+#about {
+	padding-top: 57px;
+	padding-bottom:72px; 
+}
+.banner-btn {
+	padding-top: 19px;
+}
+
+
+
+/*=================================detail part start============================*/
+#detail {
+	padding-top: 48px;
+	padding-bottom: 53px;
+}
+.detail-left-text h2 {
+	font-size: 40px;
+}
+.detail-left-text h3 {
+	font-size: 30px;
+	margin-bottom: 11px;
+}
+.detail-top {
+	padding-top: 35px;
+}
+
+
+/*================================service part star===========================t*/
+.service-header h3 {
+	font-size: 30px;
+}
+.service-item {
+	margin-bottom: 30px;
+}
+.item-top {
+	margin-top: 0;
+}
+#service {
+	padding-top: 50px;
+	padding-bottom: 43px;
+}
+
+
+/*===============================shop part start===========================*/
+
+.shop-left{
+	padding-left:20px
+}
+#shop {
+	padding-top: 59px;
+    padding-bottom: 59px;
+}
+.shop-item i {
+	font-size: 14px;
+}
+.shop-header h3 {
+	font-size: 30px;
+}
+
+/*===============================project part start===========================*/
+#project {
+	padding-top: 52px;
+	padding-bottom: 60px;
+}
+.project-btn button {
+	margin-bottom: 15px;
+}
+.pro-header h4 {
+	font-size: 16px;
+}
+.pro-icon i {
+	font-size: 14px;
+}
+.pro-last i {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+}
+.pro-header {
+	padding-top: 12px;
+	padding-left: 15px;
+}
+.pro-hover {
+	bottom: 20px;
+	left: 0px;
+}
+.pro-right p {
+	padding: 5px 15px;
+	font-size: 14px;
+}
+.pro-hover2 {
+	bottom: 22px;
+	right: 0px;
+	width: 130px;
+}
+.pro-icon {
+	padding-left: 20px;
+	padding-top: 0;
+}
+
+/*====================================counter part start=========================*/
+
+
+.counter-img img{
+	width:250px;
+	height:230px;
+}
+.counter-img {
+	text-align: center;
+}
+.counter-item {
+	padding: 14px 20px 30px 20px;
+	border: 1px solid #fff;
+	box-shadow: 0 2px 9px #fff;
+	margin-bottom: 28px;
+}
+#counter {
+	padding-top: 40px;
+	padding-bottom: 35px;
+}
+.counter-top {
+	margin-top: 36px;
+}
+
+.counter-padding{
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+
+
+/*===========================team part start===========================*/
+
+#team {
+	padding-top: 54px;
+	padding-bottom: 50px;
+}
+.team-header h3{
+	padding-bottom: 8px;
+}
+.team-top{
+	padding-top:52px;
+}
+
+
+
+/*=======================testimonial part start==========================*/
+
+#testimonial {
+	padding-top: 53px;
+	padding-bottom: 60px;
+}
+
+
+/*=====================================forms part start========================*/
+
+.forms-img {
+	right: 0px;
+	top: -327px;
+}
+#forms {
+	padding-top: 389px;
+	padding-bottom: 60px;
+}
+.inner-field {
+	padding-top: 16px;
+}
+.forms-btn button {
+	padding: 15px 30px;
+}
+
+/*====================================blog part start=================================*/
+#blog {
+	padding-top: 53px;
+	padding-bottom: 50px;
+}
+.blog-icon {
+	padding-top: 20px;
+}
+.blog-btn {
+	padding-top: 15px;
+}
+.blog-text {
+	padding: 28px 15px 22px 15px;
+}
+
+/*=====================================testimonial part start===========================*/
+
+.subscribe-item h3 {
+	font-size: 26px;
+}
+.sub-head{
+	padding-left:0;
+}
+.subs-form {
+	padding-top: 28px;
+}
+.subs-form button {
+	top: 2px;
+	padding: 10px 15px;
+}
+.subs-form {
+	padding-top: 2px;
+	padding-left: 76px;
+}
+.subs-form input {
+	height: 47px;
+}
+
+
+
+/*=====================================contact part start===========================*/
+ 
+ #contact {
+	padding-top: 53px;
+	padding-bottom: 28px;
+}
+.part4 p {
+	padding-top: 6px;
+}
+.part1 p {
+	padding-top: 5px;
+}
+.contact-1 {
+	padding-bottom: 22px;
+}
+.part2-icon {
+	padding-top: 20px;
+}
+.last-lft p {
+	font-size: 14px;
+	padding-top: 0px;
+}
+.credit i {
+	font-size: 34px;
+	padding-right: 6px;
+}
+
+
+
+
+/*==================================contact page===============================*/
+
+.contact-top{
+	padding-top:52px;
+}
+.details-top{
+	padding-left: 0;
+	padding-right: 30px;
+}
+.contact-top {
+	padding-left: 16px;
+}
+.details-text h4 {
+	padding-top: 15px;
+}
+#inner-contact {
+	padding-bottom: 34px;
+	padding-top: 52px;
+}
+.details-icon{
+	padding-top:14px;
+	text-align: right;
+}
+
+/*==================================shop page start===============================*/
+
+
+ #product-detail {
+	padding-top: 57px;
+	padding-bottom: 60px;
+}
+
+.product-detail{
+	padding-top: 36px;
+}
+.product-discrption{
+	padding-top: 15px;
+}
+.dis-img img{
+	height:200px;
+	width:100%;
+}
+#otherpage .tabs-top {
+	padding-top: 56px;
+}
+#otherpage .tab-link {
+	color: #444!important;
+	background: #fff;
+	border:1px solid #fff;
+	padding: 5px 15px;
+}
+.product-discrption h5 {
+	font-weight: 600;
+	font-size: 18px;
+}
+#otherpage .tab-link:hover{
+	color:#007bff!important;
+	background: #f2f2f2!important;
+}
+.nav-tabs .nav-item{
+	margin-bottom: 8px;
+}
+#otherpage .banner-btn {
+	padding-top: 37px;
+	padding-bottom: 32px;
+}
+#otherpage .nav-tabs .nav-item.show .tab-link, .nav-tabs .tab-link.active {
+	color: #4189de !important;
+	background: #f2f2f2!important;
+}
+
+.contact1-top {
+	padding-top: 22px;
+}
+#otherpage .tabs-discription h3 {
+	font-size: 22px;
+}
+#otherpage .form-left {
+	padding-left: 0px;
+}
+#otherpage .tab-pane {
+	padding: 25px 30px 30px 30px;
+}
+#otherpage .inner-field {
+	padding-top: 13px;
+}
+.inner-form{
+	padding: 0;
+}
+#otherpage #contact1 {
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.comment-img img{
+	width:100%;
+}
+
+/*=============================service detail page start=========================================*/
+
+.hours {
+	margin-bottom: 30px;
+}
+.working-time {
+	padding: 30px 30px;
+}
+#service-details {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/*=============================Login page start=========================================*/
+.login-btn{
+	padding-bottom: 52px;
+}
+#otherpage .inner-field {
+	padding-top: 13px;
+}
+#login {
+	padding-top: 54px;
+	padding-bottom: 8px;
+}
+#otherpage .inner-form h3 {
+	padding-bottom: 15px;
+}
+
+/*=============================news-details page start======================================*/
+
+#inner-blog {
+	padding-top: 60px;
+	padding-bottom: 0;
+}
+.innerblog-img img {
+	height: 300px;
+	width: 100%;
+}
+.inner-right h3 {
+	padding-top: 22px;
+}
+.inner-blog1-img{
+	padding-bottom: 15px;
+}
+.innerblog-text h3 {
+	font-size: 24px;
+	padding-top: 15px;
+	padding-bottom: 7px;
+}
+.inner-blogs-icon {
+	padding-left: 0;
+}
+.blog-top {
+	padding-top: 9px;
+	padding-bottom: 54px;
+}
+.contact1-top {
+	padding-top: 26px;
+}
+.news-img{
+	padding-top:15px
+}
+
+#otherpage .subs-form input {
+	height: 49px;
+}
+.subs-form button {
+	top: 2px;
+	padding: 11px 15px;
+}
+
+.news-btn{
+	padding-bottom: 60px;
+}
+.tabs-discription{
+	padding-top: 13px;
+}
+
+/*===========================index2 page start=================================*/
+
+#banner2 {
+	padding-top: 100px;
+	padding-bottom: 103px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+/*=============================xtra small part start==============================================*/
+
+
+@media (max-width: 575.98px) { 
+  
+  /*==========================header part start=====================*/
+ .head1{
+   width:100%;
+ }
+ .header-right {
+	text-align: left !important;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.header-left ul li {
+	margin-right: 0;
+	padding-left: 15px;
+}
+
+#header {
+	padding-top: 24px;
+	padding-bottom: 29px;
+}
+
+
+
+
+/*===========================menu part start=====================*/
+
+.navbar {
+	line-height: 110px;
+	padding-right:15px;
+	padding-left: 15px;
+}
+.navbar-logo img{
+	padding-left:15px;
+}
+.navbar button{
+	margin-right:15px;
+}
+
+ .nav-item .nav-link{
+ 	line-height: 40px;
+ 	background: #444;
+ 	border-bottom: 1px solid #fff;
+    color:#fff!important;
+ }
+ .nav-item .nav-link:hover{
+ 	background: #4189de!important;
+ }
+ .navbar ul li ul {
+	top: 40px !important;
+	left: 114px;
+	border-top:0;
+}
+.search input {
+	width: 295px;
+}
+
+
+/*=====================banner part start=========================*/
+
+.banner-header h4 {
+	font-size: 16px;
+}
+#banner {
+	padding-top: 60px;
+	padding-bottom: 74px;
+}
+.banner-btn a {
+	padding: 15px 20px;
+}
+.banner-btn {
+	padding-top: 35px;
+}
+.banner-headers h2 {
+	font-size: 36px;
+}
+.banner-header {
+	margin-bottom: 22px;
+}
+.banner-headers p {
+	padding-top: 14px;
+	padding-bottom: 11px;
+}
+
+
+/*======================promo part start======================*/
+ 
+ .left {
+ 	padding-bottom: 25px;
+	justify-content: center;
+	display: flex;
+}
+.promo-text p {
+	font-size: 14px;
+	padding-top: 3px;
+}
+.promo-text h3 {
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 26px;
+}
+ .promo-btn {
+	margin-top: 34px;
+}
+.promo-btn a {
+	padding: 15px 20px;
+}
+.promo-btns {
+	text-align: center !important;
+}
+#promo {
+	padding-bottom: 42px;
+}
+.promo-center{
+	text-align:center;
+}
+
+/*==============================about part start============================*/
+
+#about {
+	padding-top: 57px;
+	padding-bottom:72px; 
+}
+.about-img{
+	text-align: center;
+	padding-bottom:29px; 
+}
+.about-img img{
+	height:238px;
+}
+.about-text h5 {
+	padding-bottom: 17px;
+}
+.about-text h2 {
+	font-size: 30px;
+}
+.about-text p {
+	font-size: 14px;
+}
+.banner-btn {
+	padding-top:20px;
+}
+
+
+
+/*===============================details part start==========================*/
+
+
+.detail-left-text h2 {
+	font-size: 24px;
+	font-weight: 800;
+}
+.detail-left-text h3 {
+	font-size: 22px;
+}
+#detail {
+	padding-top: 48px;
+	padding-bottom: 53px;
+}
+.detail-left-text p {
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 23px;
+}
+.detail-img{
+  padding-bottom:10px;
+}
+.detail-header h3 {
+	font-size: 24px;
+	padding-bottom: 20px;
+	padding-top: 11px;
+}
+.detail-top {
+	padding-top: 35px;
+}
+
+
+
+/*========================sevice part start================================*/
+
+.service-header h3 {
+	font-size: 30px;
+}
+.service-item {
+	margin-bottom: 15px;
+}
+.item-top {
+	margin-top: 0;
+}
+#service {
+	padding-top: 50px;
+	padding-bottom: 43px;
+}
+
+
+
+/*================================shop part start==============================*/
+
+.shop-left {
+	width: 22.5%;
+}
+.shop-icon {
+	font-size: 24px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+}
+.shop-header p {
+	font-size: 14px;
+}
+.shop-header h3 {
+	font-size: 30px;
+}
+.shop-headers {
+	width: 70%;
+}
+#shop {
+	padding-top: 59px;
+	padding-bottom: 59px;
+}
+.shop1{
+	padding-left: 45px;
+	padding-right: 45px;
+}
+/*.shop-img img{
+	height:300px;
+	padding-left:30px;
+}*/
+.shop-item h5 {
+	font-size: 16px;
+}
+.shop-item i {
+	font-size: 14px;
+}
+.shop-item p {
+	font-size: 16px;
+}
+
+/*========================project part start======================*/
+
+.service-header p {
+	font-size: 14px;
+}
+.project-btn {
+	text-align: center !important;
+	margin-top:17px;
+}
+.project-btn button {
+	padding: 10px 17px;
+	margin: 5px 3px;
+}
+#project {
+	padding-top: 52px;
+	padding-bottom: 60px;
+}
+.pro-hover2 {
+	bottom: 17px;
+	right: 15px;
+	width: 144px;
+}
+.project-btm{
+	padding-bottom: 15px
+}
+.pro-item img{
+	width:100%;
+}
+.pro-hover {
+	bottom: 15px;
+	left: 0px;
+}
+.pro-icon {
+	padding-left: 17px;
+	padding-top: 0;
+}
+.pro-header {
+	padding-top: 12px;
+	padding-left: 15px;
+}
+
+/*==================================counter part start======================*/
+
+.counter-img img{
+	width:210px;
+	height:200px;
+}
+.counter-img {
+	text-align: center;
+}
+.counter-item {
+	padding: 14px 20px 30px 20px;
+	border: 1px solid #fff;
+	box-shadow: 0 2px 9px #fff;
+	margin-bottom: 15px;
+}
+#counter {
+	padding-top: 40px;
+	padding-bottom: 45px;
+}
+.counter-top {
+	margin-top: 36px;
+}
+
+.counter-padding{
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+/*====================================team part star=================================t*/
+
+#team {
+	padding-top: 54px;
+	padding-bottom: 50px;
+}
+.team-header h3{
+	padding-bottom: 8px;
+}
+.team-img img{
+	width:100%;
+}
+.team-hover{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/*==================================testimonial part start=============================*/
+   
+ #testimonial {
+	padding-top: 53px;
+	padding-bottom: 60px;
+}
+
+/*==================================form part start===================================*/
+
+.forms-img {
+	right: 0px;
+	top: -327px;
+}
+
+#forms {
+	padding-top: 389px;
+	padding-bottom: 60px;
+}
+.inner-field {
+	padding-top: 16px;
+}
+.forms-btn button {
+	padding: 15px 20px;
+}
+
+/*====================================blog part start=================================*/
+#blog {
+	padding-top: 53px;
+	padding-bottom: 50px;
+}
+
+
+
+/*=============================subscribe part start=============================*/
+.subs-icon img {
+	height: 153px;
+	margin-bottom: 11px;
+	width: 135px;
+}
+.subs-icon{
+	text-align: center;
+}
+
+
+
+/*=======================================contact part start=============================*/
+
+#contact {
+	padding-top: 52px;
+	padding-bottom: 28px;
+}
+.contact-1{
+	padding-bottom: 33px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.part1 h3 {
+	font-size: 20px;
+}
+.part-time h6 {
+	font-size: 14px;
+}
+.part1 p {
+	padding-top: 4px;
+}
+.part4 p {
+	font-family: 'Hind', sans-serif;
+	padding-top:4px;
+}
+.credit{
+	text-align:left;
+}
+.last-lft p {
+	padding-bottom: 7px;
+}
+
+
+
+
+
+/*============================about page start===============================*/
+ 
+ #breadcumbs {
+	padding-top: 58px;
+	padding-bottom: 65px;
+}
+.bread-text h2 {
+	font-size: 36px;
+}
+
+
+
+
+
+/*==================================contact page===============================*/
+
+.contact-top{
+	padding-top:52px;
+}
+.details-top{
+	padding-left: 45px;
+	padding-right: 30px;
+}
+.contact-top {
+	padding-left: 16px;
+}
+.details-text h4 {
+	padding-top: 15px;
+}
+#inner-contact {
+	padding-bottom: 34px;
+	padding-top: 52px;
+}
+
+
+/*==================================shop page start===============================*/
+
+ #product-detail {
+	padding-top: 57px;
+	padding-bottom: 60px;
+}
+
+.product-detail{
+	padding-top: 36px;
+}
+.dis-img img{
+	width:100%;
+}
+.product-discrption{
+	padding-top: 15px;
+}
+.product-top{
+	padding:0 45px;
+}
+#otherpage .tabs-top {
+	padding-top: 56px;
+}
+#otherpage .tab-link {
+	color: #444!important;
+	background: #fff;
+	border:1px solid #fff;
+	padding: 10px 30px;
+
+}
+#otherpage .tab-link:hover{
+	color:#007bff!important;
+	background: #f2f2f2!important;
+}
+.nav-tabs .nav-item{
+	margin-bottom: 8px;
+}
+
+#otherpage .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #4189de !important;
+	background: #f2f2f2!important;
+}
+#otherpage .rev-text h5 {
+	padding-top: 8px;
+}
+.contact1-top {
+	padding-top: 50px;
+}
+#otherpage .tabs-discription h3 {
+	font-size: 22px;
+}
+#otherpage .form-left {
+	padding-left: 0px;
+}
+#otherpage .tab-pane {
+	padding: 25px 15px 30px 15px;
+}
+#otherpage .inner-field {
+	padding-top: 13px;
+}
+
+
+
+/*================================service-details page start====================================*/
+
+#service-details {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.hours {
+	margin-bottom: 30px;
+}
+
+/*================================login page start====================================*/
+
+
+#otherpage .login-btn {
+	padding-bottom: 60px;
+}
+
+#login {
+	padding-top: 52px;
+	padding-bottom: 5px;
+}
+#otherpage .inner-form h3 {
+	padding-bottom: 15px;
+}
+
+
+/*================================news details page start====================================*/
+
+#inner-blog {
+	padding-top: 60px;
+	padding-bottom: 0;
+}
+.innerblog-img img {
+	height: 200px;
+	width: 100%;
+}
+.inner-right h3 {
+	padding-top: 22px;
+}
+.inner-blog1-img{
+	padding-bottom: 15px;
+}
+.innerblog-text h3 {
+	font-size: 24px;
+	padding-top: 15px;
+	padding-bottom: 7px;
+}
+.inner-blogs-icon {
+	padding-left: 0;
+}
+#otherpage .blog-top {
+	padding-top: 9px;
+	padding-bottom: 54px;
+}
+.contact1-top {
+	padding-top: 26px;
+}
+.news-img{
+	padding-top:15px
+}
+.inner-blog1-img{
+	width:30%;
+}
+.inner-blog2-img{
+	width:70%;
+}
+.news-btn{
+	padding-bottom: 60px
+}
+.tabs-discription{
+	padding-top: 13px;
+}
+
+/*====================================index2 page start=================================*/
+.banner-header {
+	padding: 8px 8px;
+}
+#banner2 {
+	padding-top: 61px;
+	padding-bottom: 75px;
+}
+.banner-header h4 {
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 360px) and (max-width: 575px) { 
+
+.contacts{
+	width:50%;
+	padding-left:30px;
+	padding-right: 30px;
+}
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 420px) { 
+ 
+.shop-img img{
+	height:250px;
+	width:150px;
+}
+.shop-img {
+	justify-content: center;
+	display: flex;
+}
+.shop-left {
+	width: 19.5%;
+}
+.shop-headers {
+	width: 80.5%;
+}
+
+/*==================================subscribe part start=============*/
+.subs-form button {
+	padding: 12px 6px;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+
+
+}
+@media (min-width: 400px) and (max-width: 500px) { 
+ 
+ .shop-left {
+	width: 15.5%;
+}
+.shop-headers {
+	width: 84.5%;
+}
+.last-lft p {
+	padding-bottom: 19px;
+}
+
+
+}
+
+
+
+
+@media (min-width: 400px) and (max-width: 575px) { 
+/*=====================counter part start===================*/
+.counter-padding{
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 50%
+}
+
+/*========================Team part start====================*/
+.team-hover{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.team-icon i {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	margin: 0 2px;
+}
+.team-text h5 {
+	font-size: 16px;
+	font-weight: 700;
+    letter-spacing: 0; 
+}
+
+.serv1{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+/*=========================testiomonial  part start========================*/
+
+ .testimonial-top{
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+/*================================shop-page start============================*/
+ 
+.product-discrption h5 {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+/*================================news-details-page start============================*/
+.innerblog-img img {
+	height: 300px;
+	width: 100%;
+}
+
+/*================================ promo part start============================*/
+.promo-btns {
+	text-align: center !important;
+}
+
+.promo-text{
+	text-align: center;
+}
+
+
+}
+
+
+@media (min-width: 500px) and (max-width: 575px) { 
+.shop-left {
+	width: 13.5%;
+}
+.shop-headers {
+	width: 86.5%;
+}
+.shop1{
+	padding-left:15px;
+	padding-right:15px;
+}
+.subs-form input {
+	height: 50px;
+}
+
+
+
+}
+
+@media (min-width: 540px) and (max-width: 575px) { 
+.pro-header h4 {
+	font-size: 16px;
+}
+.pro-icon i {
+	font-size: 14px;
+}
+.pro-last i {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+}
+.pro-header {
+	padding-top: 12px;
+	padding-left: 15px;
+}
+.pro-hover {
+	bottom: 20px;
+	left: 0px;
+}
+.pro-right p {
+	padding: 5px 20px;
+	font-size: 14px;
+}
+.pro-hover2 {
+	bottom: 22px;
+	right: 0px;
+	width: 144px;
+}
+.pro-icon {
+	padding-left: 20px;
+	padding-top: 0;
+}
+.pro1{
+	width:50%;
+}
+
+
+
+}
+
+@media (min-width: 400px) and (max-width: 540px) { 
+
+ .pro1{
+	padding-left:45px;
+	padding-right: 45px;
+}
+.pro-hover2 {
+	bottom: 26px;
+}
+.pro-hover {
+	bottom: 24px;
+}
+.pro-header {
+	padding-top: 17px;
+
+}
+
+}
