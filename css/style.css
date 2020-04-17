@@ -943,13 +943,12 @@ p{
  .counter-top{
  	margin-top: 82px;
  }
- .counter-item{
- 	
- 	padding:30px 20px 30px 20px;
- 	background: rgba(0,0,0);
- 	border:1px solid #fff;
- 	box-shadow: 0 2px 15px #fff;
- }
+ .counter-item {
+	padding: 30px 20px 30px 20px;
+	background: rgba(0,0,0);
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 5px #fff;
+}
  .counter-item i{
  	color:#fff;
  	font-size: 50px;
@@ -1195,7 +1194,7 @@ p{
 	border-radius: 4px;
 	padding-left: 15px;
 	font-family: 'Hind', sans-serif;
-    font-weight:400;
+    font-weight:600;
     font-size: 14px;
     color:#fff;
     text-transform: capitalize;
@@ -2343,8 +2342,11 @@ p{
 
 #version1  #banner {
 	background: url(../images/banner2.png);
-	padding-top: 171px;
-	padding-bottom: 166px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 74px;
 }
 
  #version1  .banner-item{

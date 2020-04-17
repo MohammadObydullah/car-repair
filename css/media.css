@@ -1771,7 +1771,15 @@ p{
 	font-size: 14px;
 }
 
-
+/*====================================index2 page start=================================*/
+#version1 .banner-btn a {
+	padding: 15px 17px;
+	margin-left: 10px;
+	margin-right: 0;
+}
+#version1 .about-btn a{
+	margin-left: 0;
+}
 
 
 
